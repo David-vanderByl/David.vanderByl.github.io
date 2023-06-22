@@ -35,7 +35,6 @@ body::before {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: hsla(245, 100%, 50%, 0.888);
 }
 
 .spotify-icon {
@@ -58,17 +57,4 @@ body::before {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: hsla(245, 100%, 50%, 0.888);
-}
-
-.github-icon {
-  background-image: url(../../images/GitHub_Logo.png);
-  display: inline-block;
-  height: 30px;
-  width: 50px;
-  margin-right: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-color: hsla(245, 100%, 50%, 0.888);
 }
