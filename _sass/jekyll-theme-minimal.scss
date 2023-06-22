@@ -20,10 +20,10 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/img/white-plain-concrete-textured-background (1).jpg');
+  background-image: url('%2E%2Fimages%2Fbackground.jpeg');
   background-size: cover;
-  z-index: 1;
-}
+  background-repeat: no-repeat;
+  z-index: 0;
 
 
 
@@ -127,19 +127,19 @@ body::before {
   width: 20px;
   height: 20px;
   margin-right: 5px;
-  z-index: 1;
+  background-repeat: no-repeat;
 }
 
 .linkedin-icon {
-  background-image: url(../images/LI-In-Bug.png);
+  background-image: url('%2E%2Fimages%2FLI-In-Bug.png');
 }
 
 .spotify-icon {
-  background-image: url(../images/Spotify_Icon_RGB_Green.png);
+  background-image: url('%2E%2Fimages%2FSpotify_Icon_RGB_Green.png');
 }
 
 .github-icon {
-  background-image: url(../images/github-mark.png);
+  background-image: url('%2E%2Fimages%2Fgithub-mark.png');
 }
 
 
