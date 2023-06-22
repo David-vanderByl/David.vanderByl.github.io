@@ -16,34 +16,16 @@
             <div class="part2">VAN DER</div>
             <div class="part3">BYL</div>
           </h1>
-          <img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 40%; 
-          box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 20%;">
-        </div>
-
-        <div class="scrollable" style="display: flex; text-align: justify; margin-bottom: 20px;">
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        </div>
-        <div class="button-section">
-          <div class="button-link-white">
-            <a href="https://www.linkedin.com/in/david-van-der-byl">
-              <i class="linkedin-icon"></i>
-            </a>
-          </div>
-          <div class="button-link-white">
-            <a href="https://github.com/David-vanderByl">
-              <i class="github-mark"></i>
-            </a>
-          </div>
-          <div class="button-link-white">
-            <a href="rickrolled.html">
-              <i class="spotify-icon"></i>
-            </a>
-          </div>
+          <a href="default.html">
+            <img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 40%; 
+            box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 20%;">
+          </a>
         </div>
       </header>
       <section>
-        {{ content }}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <!-- Rick Rolled Video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p><a href="default.html">Return to Home</a></p>
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
