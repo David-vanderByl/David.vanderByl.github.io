@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="prism.css">
-
 
 
 <h1 style="text-align: center;">Data Science Projects</h1>
@@ -25,15 +23,17 @@ This repository offers some insight data science portfolio, showcasing the multi
 
 <h2>Table of Content</h2>
 
-- [Machine Learning](#machine-learning)
-- [Data Visualisation](#data-visualisation)
-- [Probability and Statistics](#probability-and-statistics)
-- [Data Cleaning](#data-cleaning)
-- [Getting Started](#getting-started)
+<ul>
+  <li><a href="#machine-learning">Machine Learning</a></li>
+  <li><a href="#data-visualisation">Data Visualisation</a></li>
+  <li><a href="#probability-and-statistics">Probability and Statistics</a></li>
+  <li><a href="#data-cleaning">Data Cleaning</a></li>
+  <li><a href="#getting-started">Getting Started</a></li>
+</ul>
 
 ---
 
-<h2>Machine Learning</h2>
+<h2 id="machine-learning">Machine Learning</h2>
 
 [Link to project folder](https://github.com/David-vanderByl/Data-Science-Projects/tree/main/Machine%20Learning)
 
@@ -117,7 +117,8 @@ Best model's parameters:
 'weights': 'distance'
 ```
 
-<h2>Data Visualisation</h2>
+<h2 id="data-visualisation">Data Visualisation</h2>
+
 
 [Link to project folder](https://github.com/David-vanderByl/Data-Science-Projects/tree/main/Data%20Visualisation)
 
@@ -136,7 +137,7 @@ Visualisation is a powerful tool for communicating complex data stories. In this
 
 <p>&nbsp;</p>
 
-<h2>Probability and Statistics</h2>
+<h2 id="probability-and-statistics">Probability and Statistics</h2>
 
 [Link to project folder](https://github.com/David-vanderByl/Data-Science-Projects/tree/main/Probability%20and%20Statistics)
 
@@ -147,7 +148,7 @@ Probability and statistics serve as the bedrock of data science. The projects in
 - Conditional Probability - Building a Spam Filter with Naive Bayes
 - Hypothesis Testing - Winning Jeopardy
 
-<h2>Data Cleaning</h2>
+<h2 id="data-cleaning">Data Cleaning</h2>
 
 [Link to project folder](https://github.com/David-vanderByl/Data-Science-Projects/tree/main/Data%20Cleaning)
 
@@ -158,7 +159,7 @@ The data cleaning projects within this repository highlight the importance and n
 
 
 
-<h2>Getting Started</h2>
+<h2 id="getting-started">Getting Started</h2>
 
 To explore these projects:
 
