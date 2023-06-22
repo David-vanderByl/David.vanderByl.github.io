@@ -62,7 +62,8 @@
   justify-content: center; /* Center the buttons horizontally */
   align-items: center; /* Center the items vertically */
   gap: 30px; /* Provide equal space between the buttons */
-  margin-bottom: 30 px;
+  margin-bottom: 0;
+  border-bottom: none; /* Remove the bottom border */
 }
 
 .button-link-white a {
