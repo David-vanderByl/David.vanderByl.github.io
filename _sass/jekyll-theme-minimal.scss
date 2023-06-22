@@ -21,6 +21,7 @@ body::before {
   height: 100%;
   background-image: url(../images/background.jpeg);
   background-size: cover;
+  z-index: 2;
 }
 
 
@@ -116,13 +117,16 @@ body::before {
   transform: scale(0.95); /* Scale up the button on hover */
 }
 
+/*
 .linkedin-icon,
 .github-icon,
 .spotify-icon {
-  /* Icon styles */
+  /* Icon styles 
+  display: inline-block;
   width: 20px;
   height: 20px;
-  margin-right: 5px; /* Add some spacing between the icon and text */
+  margin-right: 5px; /* Add some spacing between the icon and text 
+  z-index: 2;
 }
 
 .linkedin-icon {
@@ -136,7 +140,7 @@ body::before {
 .github-icon {
   background-image: url(../images/github-mark.png);
 }
-
+*/
 
 
 .scrollable {
