@@ -123,6 +123,8 @@
 .scrollable {
   overflow-y: auto; /* Change to 'scroll' if you want the scrollbar to be always visible */
   height: 515px; /* Specify a height here */
+  margin-top: 20px;
+  margin-bottom: 20px; 
 }
 /* Add this to style the scrollbar */
 .scrollable::-webkit-scrollbar {
