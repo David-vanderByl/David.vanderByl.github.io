@@ -68,12 +68,12 @@
   color: hsla(245, 100%, 50%, 0.888); /* Text color */
   text-decoration: none;
   border-radius: 10px; /* Rounded corners */
-  border: 2px solid hsl(40, 100%, 99%); /* Border color */
+  border: 2px solid hsl(35, 60%, 97%); /* Border color */
   /* transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease; /* Transition properties */
 }
 
 .button-link-white a:hover {
-  border-color: hsl(35, 75%, 97%);; /* Change border color on hover */
+  border-color: hsl(32, 39%, 94%); /* Change border color on hover */
   color: hsl(245, 94%, 46%); /* Change text color on hover */
   transform: scale(0.95); /* Scale up the button on hover */
 }
@@ -160,6 +160,7 @@ h1 {
   font-size: 26px; /* Change this to your desired title font size */
   font-family: 'Righteous', 'Open Sans', Arial;
   font-style: normal;
+  letter-spacing: 5px;
 }
 
 /* Heading 2 color */
@@ -168,6 +169,7 @@ h2 {
   font-size: 23px; /* Change this to your desired h2 heading font size */
   font-family: 'Righteous', 'Open Sans', Arial; 
   font-style: regular; 
+  letter-spacing: 3px;
 }
 
 /* Heading 3 color */
@@ -175,6 +177,7 @@ h3, h4, h5, h6 {
   color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired h2 heading color */
   font-family: 'Righteous', 'Open Sans', Arial; 
   font-style: regular;  
+  letter-spacing: 1.5px;
 }
 
 
