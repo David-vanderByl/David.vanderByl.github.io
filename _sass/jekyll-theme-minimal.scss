@@ -120,15 +120,14 @@ body::before {
   transform: scale(0.95); /* Scale up the button on hover */
 }
 
-/*
+
 .linkedin-icon,
 .github-icon,
 .spotify-icon {
-  /* Icon styles 
   display: inline-block;
   width: 20px;
   height: 20px;
-  margin-right: 5px; /* Add some spacing between the icon and text 
+  margin-right: 5px;
   z-index: 2;
 }
 
@@ -143,7 +142,7 @@ body::before {
 .github-icon {
   background-image: url(../images/github-mark.png);
 }
-*/
+
 
 
 .scrollable {
