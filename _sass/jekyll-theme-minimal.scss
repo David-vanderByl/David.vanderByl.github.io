@@ -20,11 +20,11 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('%2E%2Fimages%2Fbackground.jpeg');
+  background-image: url('~images/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
-
+}
 
 
 .logo-title {
@@ -131,15 +131,15 @@ body::before {
 }
 
 .linkedin-icon {
-  background-image: url('%2E%2Fimages%2FLI-In-Bug.png');
+  background-image: url(~images/LI-In-Bug.png);
 }
 
 .spotify-icon {
-  background-image: url('%2E%2Fimages%2FSpotify_Icon_RGB_Green.png');
+  background-image: url(~images/Spotify_Icon_RGB_Green.png);
 }
 
 .github-icon {
-  background-image: url('%2E%2Fimages%2Fgithub-mark.png');
+  background-image: url(~images/github-mark.png);
 }
 
 
