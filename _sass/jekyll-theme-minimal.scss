@@ -54,13 +54,16 @@
 
 .button-section {
   display: flex;
-  justify-content: space-between; /* Spread the buttons equally */
+  justify-content: flex-start; /* Aligns the buttons to the left */
   align-items: center; /* Center the items vertically */
-  margin-bottom: 20px;
+  gap: 10px; /* Provide equal space between the buttons */
+  margin-bottom: 25px;
 }
 
 .button-link-blue a {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px 5px;
   color: hsla(245, 100%, 50%, 0.888); /* Text color */
   text-decoration: none;
@@ -76,7 +79,9 @@
 }
 
 .button-link-spotify-green a {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px 5px;
   color: hsl(142.2, 72.9%, 42%); /* Text color */
   text-decoration: none;
