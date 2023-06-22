@@ -3,4 +3,16 @@
 
 @import "jekyll-theme-minimal";
 
-
+body::before {
+  /* Pseudo-element for the background image */
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background.jpeg');
+  background-size: cover;
+  background-repeat: repeat;
+  z-index: -1;
+}
