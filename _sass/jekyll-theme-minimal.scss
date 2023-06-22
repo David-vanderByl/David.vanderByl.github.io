@@ -19,7 +19,7 @@
 
 .logo-container {
   flex-shrink: 0; // This prevents the logo from shrinking
-  margin-right: 10px; // This adds some space to the right of the logo
+  margin-right: 50px; // This adds some space to the right of the logo
 }
 
 .title {
@@ -121,7 +121,7 @@
 
 
 .scrollable {
-  overflow-y: scroll; /* Change to 'scroll' if you want the scrollbar to be always visible */
+  overflow-y: auto; /* Change to 'scroll' if you want the scrollbar to be always visible */
   height: 515px; /* Specify a height here */
 }
 /* Add this to style the scrollbar */
