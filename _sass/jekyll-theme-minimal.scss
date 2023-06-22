@@ -62,7 +62,6 @@
 .button-link-blue a {
   display: inline-block;
   padding: 5px 5px;
-  background-color: hsl(15, 100%, 99%); /* Button color */
   color: hsla(245, 100%, 50%, 0.888); /* Text color */
   text-decoration: none;
   border-radius: 100px; /* Rounded corners */
@@ -71,7 +70,6 @@
 }
 
 .button-link-blue a:hover {
-  background-color: hsla(15, 100%, 99%, 0.8); /* Change background color on hover */
   border-color: hsla(245, 94%, 46%, 0.8); /* Change border color on hover */
   color: hsl(245, 94%, 46%); /* Change text color on hover */
   transform: scale(0.95); /* Scale up the button on hover */
@@ -80,7 +78,6 @@
 .button-link-spotify-green a {
   display: inline-block;
   padding: 5px 5px;
-  background-color: hsl(15, 100%, 99%); /* Button color */
   color: hsl(142.2, 72.9%, 42%); /* Text color */
   text-decoration: none;
   border-radius: 100px; /* Rounded corners */
@@ -89,7 +86,6 @@
 }
 
 .button-link-spotify-green a:hover {
-  background-color: hsla(15, 100%, 99%, 0.8); /* Change background color on hover */
   border-color: hsl(142.2, 72.9%, 42%); /* Change border color on hover */
   color: hsl(142.2, 72.9%, 42%); /* Change text color on hover */
   transform: scale(0.95); /* Scale up the button on hover */
