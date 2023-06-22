@@ -23,7 +23,7 @@ body::before {
   background-image: url('~images/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 0;
+  z-index: -1;
 }
 
 
