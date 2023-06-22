@@ -54,7 +54,6 @@ Machine learning is an intrinsic part of modern data science. The projects in th
 <h3> Machine learning Examples:</h3>
 
 <h4>- Hyperparameter Tuning using Grid-Search:</h4>
-<script src="path/to/prism.js"></script>
 
 ```python
 # Selecting the desired features from the DataFrame

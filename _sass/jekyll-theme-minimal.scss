@@ -21,7 +21,6 @@ body::before {
   height: 100%;
   background-image: url(../images/background.jpeg);
   background-repeat: repeat;
-
   background-size: cover;
   z-index: -1;
 }
@@ -129,7 +128,6 @@ body::before {
   margin-right: 5px; /* Add some spacing between the icon and text */
 }
 
-/*
 .linkedin-icon {
   background-image: url(../images/LI-In-Bug.png);
 }
@@ -141,15 +139,12 @@ body::before {
 .github-icon {
   background-image: url(../images/github-mark.png);
 }
-*/
-
 
 
 
 .scrollable {
   overflow-y: scroll; /* Change to 'scroll' if you want the scrollbar to be always visible */
   height: 515px; /* Specify a height here */
-  flex-grow: 1;
 }
 /* Add this to style the scrollbar */
 .scrollable::-webkit-scrollbar {
@@ -161,7 +156,6 @@ body::before {
 .scrollable::-webkit-scrollbar-track {
   background-color: rgba(0,0,0,0.01);
 }
-
 
 
 h1, h2, h3, h4, h5, h6 {
