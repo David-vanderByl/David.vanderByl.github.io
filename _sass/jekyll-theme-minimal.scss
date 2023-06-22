@@ -12,7 +12,7 @@ body {
 }
 
 
-by::before {
+body::before {
   /* Pseudo-element for the background image */
   content: "";
   position: fixed;
@@ -302,7 +302,7 @@ kbd {
 header {
   width:360px;
   position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  /*-webkit-font-smoothing:subpixel-antialiased;*/
 }
 
 ul.downloads {
