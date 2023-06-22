@@ -3,7 +3,6 @@
 
 
 body {
-  background-image: url(../images/background.jpeg);
   background-color: hsla(12, 100%, 99%, 0.551);
   position: relative;
   padding:50px;
@@ -12,9 +11,9 @@ body {
   font-weight:400;
 }
 
-/*
-body::before {
-  /* Pseudo-element for the background image 
+
+by::before {
+  /* Pseudo-element for the background image */
   content: "";
   position: fixed;
   top: 0;
@@ -23,9 +22,9 @@ body::before {
   height: 100%;
   background-image: url(../images/background.jpeg);
   background-size: cover;
-  z-index: 2;
+  z-index: 1;
 }
-*/
+
 
 
 .logo-title {
@@ -128,7 +127,7 @@ body::before {
   width: 20px;
   height: 20px;
   margin-right: 5px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .linkedin-icon {
