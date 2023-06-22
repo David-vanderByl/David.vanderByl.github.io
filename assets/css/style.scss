@@ -25,3 +25,25 @@ body::before {
   background-repeat: repeat;
   z-index: -1;
 }
+
+.linkedin-icon,
+.github-icon,
+.spotify-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+}
+
+.linkedin-icon {
+  background-image: url(../../images/LI-In-Bug.png);
+}
+
+.spotify-icon {
+  background-image: url(../../images/Spotify_Icon_RGB_Green.png);
+}
+
+.github-icon {
+  background-image: url(../../images/github-mark.png);
+}
