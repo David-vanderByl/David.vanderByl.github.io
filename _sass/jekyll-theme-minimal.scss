@@ -24,6 +24,7 @@
 
 .title {
   text-align: left;
+  font-family: 'Righteous', 'Open Sans', Arial;
   font-size: 24px;
   line-height: 1.1;
   color: hsl(245, 94%, 46%); 
@@ -35,29 +36,32 @@
 }
 
 .part1 {
-  font-size: 42px;
+  font-size: 45px;
   margin-bottom: 10px;
   font-weight: bold;
+  letter-spacing: 10px;
 }
 
 .part2 {
   font-size: 33px;
   padding-left: 25px;
   font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .part3 {
   font-size: 33px;
   padding-left: 10px;
   font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .button-section {
   display: flex;
-  justify-content: flex-start; /* Aligns the buttons to the left */
+  justify-content: center; /* Center the buttons horizontally */
   align-items: center; /* Center the items vertically */
   gap: 30px; /* Provide equal space between the buttons */
-  margin-bottom: 0px;
+  margin-bottom: 30 px;
 }
 
 .button-link-white a {
@@ -158,7 +162,7 @@ h1, h2, h3 {
 h1 {
   color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired title color */
   font-size: 26px; /* Change this to your desired title font size */
-  font-family: 'Righteous', 'Open Sans', Arial;
+  font-family: 'IBM', 'Open Sans', Arial;
   font-style: normal;
   letter-spacing: 5px;
 }
@@ -167,7 +171,7 @@ h1 {
 h2 {
   color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired h2 heading color */
   font-size: 23px; /* Change this to your desired h2 heading font size */
-  font-family: 'Righteous', 'Open Sans', Arial; 
+  font-family: 'IBM', 'Open Sans', Arial; 
   font-style: regular; 
   letter-spacing: 3px;
 }
@@ -175,7 +179,7 @@ h2 {
 /* Heading 3 color */
 h3, h4, h5, h6 {
   color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired h2 heading color */
-  font-family: 'Righteous', 'Open Sans', Arial; 
+  font-family: 'IBM', 'Open Sans', Arial; 
   font-style: regular;  
   letter-spacing: 1.5px;
 }
