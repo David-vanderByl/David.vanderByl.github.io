@@ -10,18 +10,6 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
-
-    /* Pseudo-element for the background image */
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../images/background.jpeg');
-    background-size: cover;
-    background-repeat: repeat;
-    z-index: 0;
 }
 
 body::before {
