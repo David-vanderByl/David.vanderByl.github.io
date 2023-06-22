@@ -1,14 +1,11 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: David van der Byl
+logo: "/images/profile_1.jpeg?raw=true"
+description: > 
+  I am an Electrical & Electronics Engineer turned Data Scientist based in Wellington, Aotearoa New Zealand. I hold a Master's degree in Electrical & Electronics Engineering as well as an Honours in Mechatronics, both from the University of Canterbury, academically I focus largely on system modelling and control theory. Quickly after my Master’s, I began a PhD, determined to improve my research skills, methodologies, and ability to confidently validate findings of background research. I began wondering what data-driven research would look like. This eventually led me away from my PhD and towards data science. The similarities and transferrable skills between controls engineering and data science caught my attention - the storytelling, research, problem-solving, and technical foundation. The shift to data science has been a rewarding experience, allowing me to utilize my existing knowledge in a field full of curiosity and continuous learning.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  My skill set includes Python, MATLAB, C/C++, LaTeX, and various data science tools such as NumPy, Pandas, Matplotlib, and Scikit-learn. I am also skilled in technical writing, data cleaning, data visualisation, and machine learning.
   
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
   - jekyll-remote-theme
-

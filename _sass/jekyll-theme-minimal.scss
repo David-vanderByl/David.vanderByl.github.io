@@ -1,0 +1,477 @@
+@import "fonts";
+@import "rouge-github";
+
+
+body {
+  background-color: hsl(15, 100%, 99%);
+  position: relative;
+  padding:50px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:400;
+  background-image: url(../images/background.jpeg);
+}
+
+body::before {
+  /* Pseudo-element for the background image */
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/background.jpeg);
+  background-repeat: repeat;
+
+  background-size: cover;
+  z-index: -1;
+}
+
+
+.logo-title {
+  display: flex;
+  justify-content: flex-start; // aligns items to the start of the container
+  align-items: center; // vertically centers items
+  gap: 20px; // adjust this for the gap between logo and title
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center; // This aligns the items vertically in the middle
+  justify-content: space-between; // This puts maximum space between the items
+}
+
+.logo-container {
+  flex-shrink: 0; // This prevents the logo from shrinking
+  margin-right: 10px; // This adds some space to the right of the logo
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.1;
+  color: hsl(245, 94%, 46%); 
+}
+
+.title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.part1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.part2 {
+  font-size: 33px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.part3 {
+  font-size: 33px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between; /* Spread the buttons equally */
+  align-items: center; /* Center the items vertically */
+  margin-bottom: 20px;
+}
+
+.button-link-blue a {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: hsl(15, 100%, 99%); /* Button color */
+  color: hsla(245, 100%, 50%, 0.888); /* Text color */
+  text-decoration: none;
+  border-radius: 100px; /* Rounded corners */
+  border: 2px solid hsl(245, 94%, 46%); /* Border color */
+  /* transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease; /* Transition properties */
+}
+
+.button-link-blue a:hover {
+  background-color: hsla(15, 100%, 99%, 0.8); /* Change background color on hover */
+  border-color: hsla(245, 94%, 46%, 0.8); /* Change border color on hover */
+  color: hsl(245, 94%, 46%); /* Change text color on hover */
+  transform: scale(0.95); /* Scale up the button on hover */
+}
+
+.button-link-spotify-green a {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: hsl(15, 100%, 99%); /* Button color */
+  color: hsl(142.2, 72.9%, 42%); /* Text color */
+  text-decoration: none;
+  border-radius: 100px; /* Rounded corners */
+  border: 2px solid hsl(142.2, 72.9%, 42%); /* Border color */
+  /* transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease; /* Transition properties */
+}
+
+.button-link-spotify-green a:hover {
+  background-color: hsla(15, 100%, 99%, 0.8); /* Change background color on hover */
+  border-color: hsl(142.2, 72.9%, 42%); /* Change border color on hover */
+  color: hsl(142.2, 72.9%, 42%); /* Change text color on hover */
+  transform: scale(0.95); /* Scale up the button on hover */
+}
+
+.linkedin-icon,
+.github-icon,
+.spotify-icon {
+  /* Icon styles */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px; /* Add some spacing between the icon and text */
+}
+
+/*
+.linkedin-icon {
+  background-image: url(../images/LI-In-Bug.png);
+}
+
+.spotify-icon {
+  background-image: url(../images/Spotify_Icon_RGB_Green.png);
+}
+
+.github-icon {
+  background-image: url(../images/github-mark.png);
+}
+*/
+
+
+
+
+.scrollable {
+  overflow-y: scroll; /* Change to 'scroll' if you want the scrollbar to be always visible */
+  height: 515px; /* Specify a height here */
+  flex-grow: 1;
+}
+/* Add this to style the scrollbar */
+.scrollable::-webkit-scrollbar {
+  width: 3px;
+}
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.1);
+}
+.scrollable::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.01);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
+p {
+  color: hsla(108, 12%, 16%, 0.80); /* Change this to your desired h3 heading color */
+  font-size: 13px; /* Change this to your desired h3 heading font size */
+  /* font-family: Arial, sans-serif; /* Change this to your desired h3 heading font */
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.85px;
+}
+
+
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+/* Title color */
+h1 {
+  color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired title color */
+  font-size: 26px; /* Change this to your desired title font size */
+  font-family: 'IBM', 'Open Sans', Arial;
+  font-style: normal;
+}
+
+/* Heading 2 color */
+h2 {
+  color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired h2 heading color */
+  font-size: 23px; /* Change this to your desired h2 heading font size */
+  font-family: 'IBM', 'Open Sans', Arial; 
+  font-style: regular; 
+}
+
+/* Heading 3 color */
+h3, h4, h5, h6 {
+  color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired h2 heading color */
+  font-family: 'IBM', 'Open Sans', Arial; 
+  font-style: regular;  
+}
+
+
+a {
+  color:hsla(106, 41%, 20%, 0.725);
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:hsla(106, 39%, 42%, 0.725);
+  transform: scale(0.95); /* Scale up the button on hover */
+  /* font-weight: bold;*/
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
+}
+
+a:hover small {
+  color:#777;
+}
+
+.wrapper {
+  width:960px;
+  margin:0 auto;
+}
+
+blockquote {
+  border-left:1px solid #e5e5e5;
+  margin:0;
+  padding:0 0 0 20px;
+  font-style:italic;
+}
+
+code, pre {
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color:#333;
+  font-size: 10px;
+}
+/* Table of Contents color */
+ul li {
+  color:  hsla(106, 41%, 20%, 0.725); /* Change this to your desired table of contents color */
+}
+
+
+
+pre {
+  padding:8px 15px;
+  background: #f8f8f8;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+dt {
+  color:#444;
+  font-weight:700;
+}
+
+th {
+  color:#444;
+}
+
+img {
+  max-width:100%;
+}
+
+kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+header {
+  width:360px;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+ul.downloads {
+  list-style:none;
+  height:40px;
+  padding:0;
+  background: #f4f4f4;
+  border-radius:5px;
+  border:1px solid #e0e0e0;
+  width:270px;
+}
+
+.downloads li {
+  width:89px;
+  float:left;
+  border-right:1px solid #e0e0e0;
+  height:40px;
+}
+
+.downloads li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.downloads li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.downloads a {
+  line-height:1;
+  font-size:11px;
+  color:#676767;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color:#675C5C;
+  font-weight:bold;
+}
+
+.downloads ul a:active {
+  background-color:#f0f0f0;
+}
+
+strong {
+  color:#222;
+  font-weight:700;
+}
+
+.downloads li + li + li {
+  border-right:none;
+  width:89px;
+}
+
+.downloads a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+section {
+  width:550px;
+  float:right;
+  margin-top: 50px; 
+  padding-bottom:50px;
+}
+
+small {
+  font-size:10px;
+}
+
+hr {
+  border:0;
+  background:#e5e5e5;
+  height:1px;
+  margin:0 0 20px;
+}
+
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+
+  .downloads {
+    width:99%;
+  }
+
+  .downloads li, .downloads li + li + li {
+    width:33%;
+  }
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}
