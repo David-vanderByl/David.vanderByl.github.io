@@ -3,3 +3,7 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache
+
+
+# important if repo in icloud
+*.icloud
