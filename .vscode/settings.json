@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/_layouts/default.html"
+    "livePreview.defaultPreviewPath": "/_layouts/default.html",
+    "editor.acceptSuggestionOnEnter": "on"
 }
