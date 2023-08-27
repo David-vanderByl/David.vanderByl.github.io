@@ -35,7 +35,9 @@ Machine learning is the heart of modern data science. This section features proj
 
 <br>
 
-- <h5> Unsupervised Machine Learning - Credit Card Customer Segmentation</h5>
+<h5> 
+- Unsupervised Machine Learning - Credit Card Customer Segmentation
+</h5>
 
 In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used for determining the optimal number of clusters. The project also includes informative visualizations, such as the heat map below:
 
@@ -47,7 +49,9 @@ In this project, I've employed the k-means algorithm to segment credit card cust
 <br>
 <br>
 
-- <h5> Supervised Machine Learning - Predicting Heart Disease</h5>
+<h5> 
+- Supervised Machine Learning - Predicting Heart Disease
+</h5>
 
 Using a dataset with lower-quality health data, I've built and optimized a k-nearest neighbors classifier model through grid search for hyperparameter tuning.
 
@@ -59,10 +63,12 @@ Using a dataset with lower-quality health data, I've built and optimized a k-nea
 
 This section delves into the foundation of data science - probability and statistics. These projects demonstrate the application of these fundamental concepts to real-world challenges. From hypothesis testing to Bayesian probabilities, I've showcased how mathematical theory translates into practical solutions.
 
-- <h5>Statistics 1 - Investigating Fandango Movie Ratings</h5>
-- <h5>Probability - Mobile App for Lottery Addiction</h5>
-- <h5>Conditional Probability - Building a Spam Filter with Naive Bayes</h4>
-- <h5>Hypothesis Testing - Winning Jeopardy</h5>
+<h5>
+- Statistics 1 - Investigating Fandango Movie Ratings
+- Probability - Mobile App for Lottery Addiction
+- Conditional Probability - Building a Spam Filter with Naive Bayes
+- Hypothesis Testing - Winning Jeopardy
+</h5>
 
 
 ## Data Cleaning
@@ -71,8 +77,10 @@ This section delves into the foundation of data science - probability and statis
 
 Data cleaning is the cornerstone of any data science workflow. This section focuses on projects that emphasize the importance of data preprocessing. Leveraging Pandas and NumPy, I've demonstrated the art of preparing data for analysis. From handling missing values to addressing outliers, these projects cover a wide array of data cleaning techniques.
 
-- <h5>Clean and Analyzing - NYC High School Data</h5>
-- <h5>Clean and Analyzing - Star Wars Survey</h5>
+<h5>
+- Clean and Analyzing - NYC High School Data
+- Clean and Analyzing - Star Wars Survey
+</h5>
 
 ## Data Visualization
 
@@ -80,7 +88,9 @@ Data cleaning is the cornerstone of any data science workflow. This section focu
 
 Visualizing data is key to conveying insights effectively. This section showcases projects where I've transformed raw data into compelling visual narratives using Python libraries like Matplotlib, Seaborn. Through bar plots, scatter plots, histograms, and more, I've demonstrated the power of visualization in revealing data patterns and correlations. I have also started playing around with the Plotly library (not shown here), which is a relatively now library for building data apps/dashboards I will be sure to share any apps that I may building in the near future. If you interest check out some example on the Ploty website [here](https://plotly.com/examples/).
 
-- <h5>Visualisation - Politics and Exchange Rates</h5>
+<h5>
+- Visualisation - Politics and Exchange Rates
+</h5>
 
 <br>
 
