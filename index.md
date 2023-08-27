@@ -13,7 +13,8 @@ layout: default
 
 <br>
 
-Welcome to my data science portfolio! This repository showcases a diverse range of data science projects, highlighting the versatility of Python in addressing various data-centric challenges.
+Welcome to my data science portfolio! This repository showcases a diverse range of data science projects, highlighting the versatility of Python in addressing various data-centric challenges. I also have repo ([link here](https://github.com/David-vanderByl/Data_Quest_code.git)) which contains a code dump of various code completed during a number of DataQuest courses within [Data Scientist in Python](https://www.dataquest.io/path/data-scientist/) program.
+
 
 <br>
 
