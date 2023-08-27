@@ -65,8 +65,11 @@ This section delves into the foundation of data science - probability and statis
 
 <h5>
 - Statistics 1 - Investigating Fandango Movie Ratings
+
 - Probability - Mobile App for Lottery Addiction
+
 - Conditional Probability - Building a Spam Filter with Naive Bayes
+
 - Hypothesis Testing - Winning Jeopardy
 </h5>
 
@@ -79,6 +82,7 @@ Data cleaning is the cornerstone of any data science workflow. This section focu
 
 <h5>
 - Clean and Analyzing - NYC High School Data
+
 - Clean and Analyzing - Star Wars Survey
 </h5>
 
