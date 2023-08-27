@@ -180,11 +180,19 @@ h2 {
 }
 
 /* Heading 3 color */
-h3, h4, h5, h6 {
+h3, h4 {
   color: hsla(107, 15%, 43%, 0.95); /* Change this to your desired h2 heading color */
   font-family: 'IBM', 'Open Sans', Arial; 
   font-style: regular;  
   letter-spacing: 1.5px;
+}
+
+/* Heading 3 color */
+h5, h6 {
+  color: hsla(107, 14%, 32%, 0.95); /* Change this to your desired h2 heading color */
+  font-family: 'IBM', 'Open Sans', Arial; 
+  font-style: regular;  
+  letter-spacing: 1.1px;
 }
 
 
