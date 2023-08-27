@@ -33,7 +33,6 @@ Welcome to my data science portfolio! This repository showcases a diverse range 
 
 Machine learning is the heart of modern data science. This section features projects that demonstrate my solid foundation in machine learning concepts. From predictive modeling to model validation, I've utilized the Scikit-learn library in Python to implement, evaluate, and fine-tune various machine learning techniques.
 
-<br>
 
 <h5> 
 - Unsupervised Machine Learning - Credit Card Customer Segmentation
@@ -41,12 +40,10 @@ Machine learning is the heart of modern data science. This section features proj
 
 In this project, I've employed the k-means algorithm to segment credit card customers using a dataset of around 10,000 observations. The elbow curve optimization technique was used for determining the optimal number of clusters. The project also includes informative visualizations, such as the heat map below:
 
-<br>
 <div align="center">
   <img src="images/plot_collage_1.png?raw=true" alt="Credit Card Customer Segmentation" style="max-width: 90%; box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 7px;">
 </div>
 
-<br>
 <br>
 
 <h5> 
@@ -64,13 +61,10 @@ Using a dataset with lower-quality health data, I've built and optimized a k-nea
 This section delves into the foundation of data science - probability and statistics. These projects demonstrate the application of these fundamental concepts to real-world challenges. From hypothesis testing to Bayesian probabilities, I've showcased how mathematical theory translates into practical solutions.
 
 <h5>
-- Statistics 1 - Investigating Fandango Movie Ratings
-
-- Probability - Mobile App for Lottery Addiction
-
-- Conditional Probability - Building a Spam Filter with Naive Bayes
-
-- Hypothesis Testing - Winning Jeopardy
+- Statistics 1 - Investigating Fandango Movie Ratings<br>
+- Probability - Mobile App for Lottery Addiction<br>
+- Conditional Probability - Building a Spam Filter with Naive Bayes<br>
+- Hypothesis Testing - Winning Jeopardy<br>
 </h5>
 
 
@@ -81,9 +75,8 @@ This section delves into the foundation of data science - probability and statis
 Data cleaning is the cornerstone of any data science workflow. This section focuses on projects that emphasize the importance of data preprocessing. Leveraging Pandas and NumPy, I've demonstrated the art of preparing data for analysis. From handling missing values to addressing outliers, these projects cover a wide array of data cleaning techniques.
 
 <h5>
-- Clean and Analyzing - NYC High School Data
-
-- Clean and Analyzing - Star Wars Survey
+- Clean and Analyzing - NYC High School Data<br>
+- Clean and Analyzing - Star Wars Survey<br>
 </h5>
 
 ## Data Visualization
@@ -96,7 +89,6 @@ Visualizing data is key to conveying insights effectively. This section showcase
 - Visualisation - Politics and Exchange Rates
 </h5>
 
-<br>
 
 <div align="center">
   <img src="images/data_vis_1.png?raw=true" alt="Data Visualization" style="max-width: 90%; box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1); border-radius: 7px;">
