@@ -40,7 +40,7 @@ Machine learning is the heart of modern data science. This section features proj
 
 Using linear Regression this project's primary objective is to investigate the cost of health insurance against a number of key indicators. The data can be found on [Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=downloa) and includes 1338 patients, which makes it somewhat limited, but it's interesting to see how limited data can be used to draw insights. 
 
-Aside: if you are interested in the useful visualisation functions within the *Credit Card Customer Segmentation* below this project has improved upon a few of those and provides a couple alternatives.
+Aside: if you are interested in the useful visualisation functions within the project below, my *Predicting Health Insurance Costs* project has improved upon a few of those and provides a couple alternatives.
 
 <h5> 
 - Unsupervised Machine Learning - Credit Card Customer Segmentation
